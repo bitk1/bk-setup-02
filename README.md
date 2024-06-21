@@ -13,6 +13,6 @@ This repository contains a Go application to manage IPFS on a Bitknowledge Archi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/bk-setup-02.git
+   git clone https://github.com/bitk1/bk-setup-02.git
    cd bk-setup-02
 

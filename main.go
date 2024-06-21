@@ -16,8 +16,8 @@ func main() {
     http.HandleFunc("/cat", catFileHandler)
     http.HandleFunc("/peers", peersHandler)
 
-    fmt.Println("Server started at :8080")
-    log.Fatal(http.ListenAndServe(":8080", nil))
+    fmt.Println("Server started at :8081")
+    log.Fatal(http.ListenAndServe(":8081", nil))
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
