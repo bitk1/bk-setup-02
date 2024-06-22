@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPFS Interface</title>
+</head>
+<body>
+    <h1>IPFS Interface</h1>
+    
+    <h2>Add File to IPFS</h2>
+    <form enctype="multipart/form-data" action="/add" method="post">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Retrieve File from IPFS</h2>
+    <form action="/cat" method="get">
+        <label for="hash">File Hash:</label>
+        <input type="text" id="hash" name="hash">
+        <input type="submit" value="Retrieve">
+    </form>
+
+    <h2>View Connected Peers</h2>
+    <form action="/peers" method="get">
+        <input type="submit" value="View Peers">
+    </form>
+</body>
+</html>
+
